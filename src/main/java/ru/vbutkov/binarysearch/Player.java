@@ -6,6 +6,8 @@ public class Player {
     private int rating;
     private String name;
 
+    private int test;
+
     public Player(int rating, String name) {
         this.rating = rating;
         this.name = name;
