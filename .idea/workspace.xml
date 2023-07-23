@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2c69fb2-d0be-48e5-b5ca-43335579505c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.attach_pid1824250" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/stack/DynamicStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/stack/StackTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/vbutkov/stack/DynamicStackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/vbutkov/stack/StackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +50,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -54,73 +59,57 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.vbutkov.stack" />
       <recent name="ru.vbutkov.binarysearch" />
       <recent name="ru.vbutkov.array.arraylist" />
       <recent name="ru.vbutkov.list.hashmap" />
       <recent name="ru.vbutkov.list.array" />
-      <recent name="ru.vbutkov.list.linkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PlayerTest.findIndex">
-    <configuration name="ArrayShiftTest.removeDuplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DynamicStackTest.pushAndPop">
+    <configuration name="DynamicStackTest.pop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.vbutkov.array.arraylist.*" />
+          <option name="PATTERN" value="ru.vbutkov.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.vbutkov.array.arraylist" />
-      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.array.arraylist.ArrayShiftTest" />
-      <option name="METHOD_NAME" value="removeDuplicates" />
+      <option name="PACKAGE_NAME" value="ru.vbutkov.stack" />
+      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.stack.DynamicStackTest" />
+      <option name="METHOD_NAME" value="pop" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayShiftTest.removeElementAtIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DynamicStackTest.push" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.vbutkov.array.arraylist.*" />
+          <option name="PATTERN" value="ru.vbutkov.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.vbutkov.array.arraylist" />
-      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.array.arraylist.ArrayShiftTest" />
-      <option name="METHOD_NAME" value="removeElementAtIndex" />
+      <option name="PACKAGE_NAME" value="ru.vbutkov.stack" />
+      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.stack.DynamicStackTest" />
+      <option name="METHOD_NAME" value="push" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchTest.binarySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DynamicStackTest.pushAndPop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.vbutkov.binarysearch.*" />
+          <option name="PATTERN" value="ru.vbutkov.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.vbutkov.binarysearch" />
-      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.binarysearch.BinarySearchTest" />
-      <option name="METHOD_NAME" value="binarySearch" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashMapTest.putAndGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.vbutkov.list.hashmap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.vbutkov.list.hashmap" />
-      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.list.hashmap.HashMapTest" />
-      <option name="METHOD_NAME" value="putAndGet" />
+      <option name="PACKAGE_NAME" value="ru.vbutkov.stack" />
+      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.stack.DynamicStackTest" />
+      <option name="METHOD_NAME" value="pushAndPop" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,13 +131,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StackTest.isRightExprBrackets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.vbutkov.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.vbutkov.stack" />
+      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.stack.StackTest" />
+      <option name="METHOD_NAME" value="isRightExprBrackets" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DynamicStackTest.pushAndPop" />
+        <item itemvalue="JUnit.DynamicStackTest.pop" />
+        <item itemvalue="JUnit.DynamicStackTest.push" />
+        <item itemvalue="JUnit.StackTest.isRightExprBrackets" />
         <item itemvalue="JUnit.PlayerTest.findIndex" />
-        <item itemvalue="JUnit.ArrayShiftTest.removeDuplicates" />
-        <item itemvalue="JUnit.ArrayShiftTest.removeElementAtIndex" />
-        <item itemvalue="JUnit.BinarySearchTest.binarySearch" />
-        <item itemvalue="JUnit.HashMapTest.putAndGet" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +166,7 @@
       <option name="presentableId" value="Default" />
       <updated>1689946824783</updated>
       <workItem from="1689946826688" duration="25284000" />
+      <workItem from="1690112450599" duration="7593000" />
     </task>
     <servers />
   </component>
