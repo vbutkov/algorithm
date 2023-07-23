@@ -8,6 +8,10 @@ public class StackTask {
         int pos = 0;
         while (pos <= expr.length() - 1) {
             char ch = expr.charAt(pos);
+            if (ch == ' ') {
+                pos++;
+                continue;
+            }
             if ((ch == ')' || ch == ']' || ch == '}') && stack.isEmpty()) return false;
             if (ch == '(' || ch == '[' || ch == '{')
                 stack.push(ch);

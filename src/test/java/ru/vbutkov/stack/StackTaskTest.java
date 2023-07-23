@@ -36,7 +36,7 @@ class StackTaskTest {
 
         System.out.println();
         task = new StackTask();
-        expr = "(()){}{}{}{}[({})][()]{}";
+        expr = "   (()){}{}{}{}[({})][()]{}";
         result = task.isGoodExprBrackets(expr);
         assertEquals(result, true);
 

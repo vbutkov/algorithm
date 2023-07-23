@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2c69fb2-d0be-48e5-b5ca-43335579505c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/vbutkov/stack/StackTaskTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vbutkov/stack/DynamicStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/stack/DynamicStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/vbutkov/stack/StackTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/stack/StackTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/vbutkov/stack/StackTaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/vbutkov/stack/StackTaskTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +163,7 @@
       <option name="presentableId" value="Default" />
       <updated>1689946824783</updated>
       <workItem from="1689946826688" duration="25284000" />
-      <workItem from="1690112450599" duration="13877000" />
+      <workItem from="1690112450599" duration="14488000" />
     </task>
     <servers />
   </component>
