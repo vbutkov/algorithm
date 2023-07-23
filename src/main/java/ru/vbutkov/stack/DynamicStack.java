@@ -83,7 +83,15 @@ public class DynamicStack {
 
     @Override
     public String toString() {
-        return Arrays.toString(stack);
+        StringBuilder sb = new StringBuilder();
+        sb.append("[");
+        for (int i = 0; i < stack.length; i++) {
+            sb.append((char) stack[i]);
+            sb.append(" ");
+        }
+        sb.append("]");
+
+        return sb.toString();
     }
 
     @Override

@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2c69fb2-d0be-48e5-b5ca-43335579505c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/vbutkov/stack/StackTaskTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/vbutkov/stack/DynamicStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/stack/DynamicStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vbutkov/stack/StackTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/stack/StackTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +48,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "configurable.group.editor",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -62,7 +64,7 @@
       <recent name="ru.vbutkov.list.array" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DynamicStackTest.pushAndPop">
+  <component name="RunManager" selected="JUnit.StackTaskTest.isGoodExprBrackets">
     <configuration name="DynamicStackTest.pop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <extension name="coverage">
@@ -111,17 +113,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerTest.findIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackTaskTest.isGoodExprBrackets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.vbutkov.binarysearch.*" />
+          <option name="PATTERN" value="ru.vbutkov.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.vbutkov.binarysearch" />
-      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.binarysearch.PlayerTest" />
-      <option name="METHOD_NAME" value="findIndex" />
+      <option name="PACKAGE_NAME" value="ru.vbutkov.stack" />
+      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.stack.StackTaskTest" />
+      <option name="METHOD_NAME" value="isGoodExprBrackets" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StackTaskTest.isGoodExprBrackets" />
         <item itemvalue="JUnit.DynamicStackTest.pushAndPop" />
         <item itemvalue="JUnit.DynamicStackTest.pop" />
         <item itemvalue="JUnit.DynamicStackTest.push" />
         <item itemvalue="JUnit.StackTest.isRightExprBrackets" />
-        <item itemvalue="JUnit.PlayerTest.findIndex" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +164,7 @@
       <option name="presentableId" value="Default" />
       <updated>1689946824783</updated>
       <workItem from="1689946826688" duration="25284000" />
-      <workItem from="1690112450599" duration="8939000" />
+      <workItem from="1690112450599" duration="13877000" />
     </task>
     <servers />
   </component>
