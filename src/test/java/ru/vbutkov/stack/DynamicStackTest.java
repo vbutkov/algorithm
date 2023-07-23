@@ -15,14 +15,14 @@ class DynamicStackTest {
         stack.push(3);
         stack.push(4);
         stack.push(5);
-        assertArrayEquals(stack.stack, new int[]{1, 2, 3, 4, 5});
+        assertArrayEquals(stack.getStack(), new int[]{1, 2, 3, 4, 5});
 
         stack.push(6);
-        assertArrayEquals(stack.stack, new int[]{1, 2, 3, 4, 5, 6, 0, 0, 0, 0});
+        assertArrayEquals(stack.getStack(), new int[]{1, 2, 3, 4, 5, 6, 0, 0, 0, 0});
 
         stack.pop();
         assertEquals(stack.size(), 5);
-        assertArrayEquals(stack.stack, new int[]{1, 2, 3, 4, 5, 0, 0, 0, 0, 0});
+        assertArrayEquals(stack.getStack(), new int[]{1, 2, 3, 4, 5, 0, 0, 0, 0, 0});
         stack.pop();
         assertEquals(stack.size(), 4);
         stack.pop();
@@ -33,7 +33,7 @@ class DynamicStackTest {
         assertEquals(stack.size(), 2);
         stack.pop();
         assertEquals(stack.size(), 1);
-        assertArrayEquals(stack.stack, new int[]{1, 0, 0, 0, 0});
+        assertArrayEquals(stack.getStack(), new int[]{1, 0, 0, 0, 0});
 
         stack.pop();
         assertEquals(stack.size(), 0);
@@ -43,7 +43,7 @@ class DynamicStackTest {
         stack.push(3);
         stack.push(4);
         stack.push(5);
-        assertArrayEquals(stack.stack, new int[]{1, 2, 3, 4, 5});
+        assertArrayEquals(stack.getStack(), new int[]{1, 2, 3, 4, 5});
 
     }
 }

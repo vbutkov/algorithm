@@ -5,13 +5,13 @@ import java.util.Objects;
 
 public class DynamicStack {
 
-    private final int LOW_CAPACITY = 5;
-    int capacity;
-    int[] stack;
-    int top;
+    private static final int LOW_CAPACITY = 5;
+    private int capacity;
+    private int[] stack;
+    private int top;
 
     public DynamicStack() {
-        this(5);
+        this(LOW_CAPACITY);
     }
 
     public DynamicStack(int capacity) {
@@ -75,6 +75,10 @@ public class DynamicStack {
 
     public int size() {
         return top;
+    }
+
+    public int[] getStack() {
+        return stack;
     }
 
     @Override
