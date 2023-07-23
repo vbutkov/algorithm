@@ -37,7 +37,7 @@ public class DynamicStack {
         top++;
     }
 
-    public void shrink() {
+    private void shrink() {
         int length = size();
         int newCapacity = capacity / 4;
         if (length <= newCapacity) {
