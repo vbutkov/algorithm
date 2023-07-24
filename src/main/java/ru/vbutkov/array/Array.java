@@ -1,6 +1,8 @@
 package ru.vbutkov.array;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
 public class Array {
 
@@ -53,6 +55,28 @@ public class Array {
 
     private boolean isNextMaxElement(int element, int maxElement) {
         return maxElement < Integer.max(element, maxElement) ? true : false;
+    }
+
+    public List<Integer> getPrimes(int n) {
+        List<Integer> primes = new LinkedList<>();
+        boolean isPrime;
+
+        if (n >= 2) primes.add(2);
+        else if (n < 2) throw new IllegalArgumentException("The number cannot < 2.");
+
+        for (int i = 3; i <= n; i += 2) {
+            isPrime = true;
+            for (int j = 2; j * j <= i; j++) {
+                if (i % j == 0) {
+                    isPrime = false;
+                    break;
+                }
+            }
+            if (isPrime)
+                primes.add(i);
+        }
+
+        return primes;
     }
 
 
