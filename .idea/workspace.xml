@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2c69fb2-d0be-48e5-b5ca-43335579505c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/vbutkov/array/ArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/vbutkov/array/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/array/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/vbutkov/array/ArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/vbutkov/array/ArrayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <recent name="ru.vbutkov.list.hashmap" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayTest.isPrime">
+  <component name="RunManager" selected="JUnit.ArrayTest.sieveEratosthenes">
     <configuration name="ArrayTest.isPrime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <extension name="coverage">
@@ -83,6 +83,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArrayTest.sieveEratosthenes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.vbutkov.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.vbutkov.array" />
+      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.array.ArrayTest" />
+      <option name="METHOD_NAME" value="sieveEratosthenes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DynamicStackTest.pop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <extension name="coverage">
@@ -94,22 +110,6 @@
       <option name="PACKAGE_NAME" value="ru.vbutkov.stack" />
       <option name="MAIN_CLASS_NAME" value="ru.vbutkov.stack.DynamicStackTest" />
       <option name="METHOD_NAME" value="pop" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DynamicStackTest.push" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.vbutkov.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.vbutkov.stack" />
-      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.stack.DynamicStackTest" />
-      <option name="METHOD_NAME" value="push" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArrayTest.sieveEratosthenes" />
         <item itemvalue="JUnit.ArrayTest.isPrime" />
         <item itemvalue="JUnit.StackTaskTest.isGoodExprBrackets" />
         <item itemvalue="JUnit.DynamicStackTest.pushAndPop" />
         <item itemvalue="JUnit.DynamicStackTest.pop" />
-        <item itemvalue="JUnit.DynamicStackTest.push" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +166,7 @@
       <option name="presentableId" value="Default" />
       <updated>1689946824783</updated>
       <workItem from="1689946826688" duration="25284000" />
-      <workItem from="1690112450599" duration="17590000" />
+      <workItem from="1690112450599" duration="24273000" />
     </task>
     <servers />
   </component>

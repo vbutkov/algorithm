@@ -1,6 +1,7 @@
 package ru.vbutkov.array;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -62,7 +63,7 @@ public class Array {
         boolean isPrime;
 
         if (n >= 2) primes.add(2);
-        else if (n < 2) throw new IllegalArgumentException("The number cannot < 2.");
+        else if (n < 2) throw new IllegalArgumentException("The param n cannot < 2.");
 
         for (int i = 3; i <= n; i += 2) {
             isPrime = true;
@@ -77,6 +78,28 @@ public class Array {
         }
 
         return primes;
+    }
+
+    public List<Integer> sieveEratosthenes(int n) {
+        boolean[] primes = new boolean[n + 1];
+        Arrays.fill(primes, true);
+
+        for (int i = 2; i <= n; i++) {
+            if (!primes[i]) continue;
+            for (int j = i * i; j <= n; j += i) {
+                if (primes[j]) {
+                    primes[j] = false;
+                }
+            }
+        }
+
+        ArrayList<Integer> result = new ArrayList<>();
+        for (int i = 2; i < primes.length - 1; i++) {
+            if (primes[i])
+                result.add(i);
+        }
+
+        return result;
     }
 
 
