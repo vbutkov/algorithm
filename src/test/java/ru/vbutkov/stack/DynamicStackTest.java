@@ -45,5 +45,32 @@ class DynamicStackTest {
         stack.push(5);
         assertArrayEquals(stack.getStack(), new int[]{1, 2, 3, 4, 5});
 
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.push(4);
+        stack.push(5);
+
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.push(4);
+        stack.push(5);
+        assertArrayEquals(stack.getStack(), new int[]{1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 0, 0, 0, 0, 0});
+
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        assertArrayEquals(stack.getStack(), new int[]{1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0});
+
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        assertArrayEquals(stack.getStack(), new int[]{1, 2, 3, 4, 5, 0, 0, 0, 0, 0});
+
     }
 }

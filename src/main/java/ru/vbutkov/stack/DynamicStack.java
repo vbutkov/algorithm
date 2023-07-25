@@ -39,8 +39,8 @@ public class DynamicStack {
 
     private void shrink() {
         int length = size();
-        int newCapacity = capacity / 4;
-        if (length <= newCapacity) {
+        int newCapacity = capacity / 2;
+        if (length <= newCapacity / 2) {
             if (newCapacity < LOW_CAPACITY)
                 capacity = LOW_CAPACITY;
             else
