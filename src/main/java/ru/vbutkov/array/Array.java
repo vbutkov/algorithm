@@ -104,12 +104,15 @@ public class Array {
 
     public int decomposeToPrimeFactors(int number) {
         int count = 0;
-        for (int i = 2; i <= number; i++) {
+        for (int i = 2; i * i <= number; i++) {
             while (number % i == 0) {
                 number = number / i;
                 count++;
             }
         }
+        if (number > 1)
+            count++;
+
 
         return count;
     }

@@ -7,7 +7,6 @@
     <list default="true" id="a2c69fb2-d0be-48e5-b5ca-43335579505c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/vbutkov/array/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/array/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/vbutkov/array/ArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/vbutkov/array/ArrayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +167,7 @@
       <updated>1689946824783</updated>
       <workItem from="1689946826688" duration="25284000" />
       <workItem from="1690112450599" duration="30463000" />
-      <workItem from="1690361819777" duration="1202000" />
+      <workItem from="1690361819777" duration="1387000" />
     </task>
     <servers />
   </component>
