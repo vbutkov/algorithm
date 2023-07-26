@@ -102,5 +102,16 @@ public class Array {
         return result;
     }
 
+    public int decomposeToPrimeFactors(int number) {
+        int count = 0;
+        for (int i = 2; i <= number; i++) {
+            while (number % i == 0) {
+                number = number / i;
+                count++;
+            }
+        }
+
+        return count;
+    }
 
 }
