@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2c69fb2-d0be-48e5-b5ca-43335579505c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/vbutkov/sort/BubbleSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vbutkov/array/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/array/Array.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.sync",
+    "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -59,14 +60,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.vbutkov.sort" />
       <recent name="ru.vbutkov.array" />
       <recent name="ru.vbutkov.stack" />
       <recent name="ru.vbutkov.binarysearch" />
       <recent name="ru.vbutkov.array.arraylist" />
-      <recent name="ru.vbutkov.list.hashmap" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayTest.decomposeToPrimeFactors">
+  <component name="RunManager" selected="JUnit.BubbleSortTest.sort">
     <configuration name="ArrayTest.decomposeToPrimeFactors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <extension name="coverage">
@@ -115,6 +116,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BubbleSortTest.sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.vbutkov.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.vbutkov.sort" />
+      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.sort.BubbleSortTest" />
+      <option name="METHOD_NAME" value="sort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DynamicStackTest.pushAndPop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <extension name="coverage">
@@ -131,29 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTaskTest.isGoodExprBrackets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.vbutkov.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.vbutkov.stack" />
-      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.stack.StackTaskTest" />
-      <option name="METHOD_NAME" value="isGoodExprBrackets" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BubbleSortTest.sort" />
         <item itemvalue="JUnit.ArrayTest.decomposeToPrimeFactors" />
         <item itemvalue="JUnit.DynamicStackTest.pushAndPop" />
         <item itemvalue="JUnit.ArrayTest.sieveEratosthenes" />
         <item itemvalue="JUnit.ArrayTest.isPrime" />
-        <item itemvalue="JUnit.StackTaskTest.isGoodExprBrackets" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +168,8 @@
       <updated>1689946824783</updated>
       <workItem from="1689946826688" duration="25284000" />
       <workItem from="1690112450599" duration="30463000" />
-      <workItem from="1690361819777" duration="1387000" />
+      <workItem from="1690361819777" duration="2163000" />
+      <workItem from="1690794972573" duration="2998000" />
     </task>
     <servers />
   </component>
