@@ -1,20 +1,15 @@
 package ru.vbutkov.sort;
 
-import java.util.Arrays;
-
-public class BubbleSort {
-
+public class ChoiceSort {
     public void sort(int[] elements) {
-        boolean isSwap;
         for (int i = 0; i < elements.length; i++) {
-            isSwap = false;
-            for (int j = 0; j < elements.length - 1 - i; j++) {
-                if (elements[j] > elements[j + 1]) {
-                    swap(elements, j, j + 1);
-                    isSwap = true;
+            int min = i;
+            for (int j = i + 1; j < elements.length; j++) {
+                if (elements[j] < elements[min]) {
+                    min = j;
                 }
             }
-            if (!isSwap) break;
+            swap(elements, i, min);
         }
     }
 
