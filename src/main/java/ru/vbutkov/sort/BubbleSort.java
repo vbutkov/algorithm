@@ -19,8 +19,8 @@ public class BubbleSort {
     }
 
     private void swap(int[] elements, int index, int nextIndex) {
-        int saveValueForIndex = elements[index];
+        int saveValueByIndex = elements[index];
         elements[index] = elements[nextIndex];
-        elements[nextIndex] = saveValueForIndex;
+        elements[nextIndex] = saveValueByIndex;
     }
 }

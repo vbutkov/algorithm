@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2c69fb2-d0be-48e5-b5ca-43335579505c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/vbutkov/sort/BubbleSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,7 +167,7 @@
       <workItem from="1689946826688" duration="25284000" />
       <workItem from="1690112450599" duration="30463000" />
       <workItem from="1690361819777" duration="2163000" />
-      <workItem from="1690794972573" duration="2998000" />
+      <workItem from="1690794972573" duration="3687000" />
     </task>
     <servers />
   </component>
