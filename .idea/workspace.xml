@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2c69fb2-d0be-48e5-b5ca-43335579505c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/sort/ChoiceSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/vbutkov/sort/ChoiceSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/sort/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/vbutkov/sort/InsertSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vbutkov/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/sort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/vbutkov/sort/BubbleSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/vbutkov/sort/BubbleSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +67,7 @@
       <recent name="ru.vbutkov.array.arraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BubbleSortTest.sort">
+  <component name="RunManager" selected="JUnit.InsertSortTest.sort">
     <configuration name="ArrayTest.decomposeToPrimeFactors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <extension name="coverage">
@@ -81,22 +79,6 @@
       <option name="PACKAGE_NAME" value="ru.vbutkov.array" />
       <option name="MAIN_CLASS_NAME" value="ru.vbutkov.array.ArrayTest" />
       <option name="METHOD_NAME" value="decomposeToPrimeFactors" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayTest.sieveEratosthenes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.vbutkov.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.vbutkov.array" />
-      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.array.ArrayTest" />
-      <option name="METHOD_NAME" value="sieveEratosthenes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,13 +132,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InsertSortTest.sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.vbutkov.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.vbutkov.sort" />
+      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.sort.InsertSortTest" />
+      <option name="METHOD_NAME" value="sort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InsertSortTest.sort" />
         <item itemvalue="JUnit.BubbleSortTest.sort" />
         <item itemvalue="JUnit.ChoiceSortTest.sort" />
         <item itemvalue="JUnit.ArrayTest.decomposeToPrimeFactors" />
         <item itemvalue="JUnit.DynamicStackTest.pushAndPop" />
-        <item itemvalue="JUnit.ArrayTest.sieveEratosthenes" />
       </list>
     </recent_temporary>
   </component>
