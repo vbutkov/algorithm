@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a2c69fb2-d0be-48e5-b5ca-43335579505c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vbutkov/recurse/PasswordSelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/recurse/PasswordGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vbutkov/recurse/PasswordGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/recurse/PasswordGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +167,7 @@
       <workItem from="1691057588550" duration="8765000" />
       <workItem from="1691240830182" duration="11733000" />
       <workItem from="1691482586307" duration="2624000" />
-      <workItem from="1691998368409" duration="15242000" />
+      <workItem from="1691998368409" duration="17040000" />
     </task>
     <servers />
   </component>

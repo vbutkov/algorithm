@@ -3,13 +3,27 @@ package ru.vbutkov.recurse;
 import java.util.ArrayList;
 
 public class PasswordGenerator {
+    static char[] s = new char[4];
 
-    public static void main(String[] args) throws InterruptedException {
-        simpleGenerate();
-        advanceGenerate();
+    public static void main(String[] args) {
+//        simpleGenerate();
+//        advanceGenerate();
+
+        int lengthPassword = 4;
+        recursiveSimpleGenerator(0, lengthPassword);
     }
 
-    private static void advanceGenerate() throws InterruptedException {
+    private static void recursiveSimpleGenerator(int pos, int length) {
+        if (pos == length) {
+            System.out.println(s);
+            return;
+        }
+        for (s[pos] = 'a'; s[pos] < 'z'; s[pos]++) {
+            recursiveSimpleGenerator(pos + 1, length);
+        }
+    }
+
+    private static void advanceGenerate() {
         char[] s = new char[4];
         char[] possible = new char[100];
         int p = 0;
