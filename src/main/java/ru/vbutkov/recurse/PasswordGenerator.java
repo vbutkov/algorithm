@@ -2,14 +2,14 @@ package ru.vbutkov.recurse;
 
 import java.util.ArrayList;
 
-public class Enumeration {
+public class PasswordGenerator {
 
     public static void main(String[] args) throws InterruptedException {
-        simpleEnumeration();
-        AdvanceEnumeration();
+        simpleGenerate();
+        advanceGenerate();
     }
 
-    private static void AdvanceEnumeration() throws InterruptedException {
+    private static void advanceGenerate() throws InterruptedException {
         char[] s = new char[4];
         char[] possible = new char[100];
         int p = 0;
@@ -43,7 +43,7 @@ public class Enumeration {
         System.out.println(count);
     }
 
-    private static void simpleEnumeration() {
+    private static void simpleGenerate() {
         int count = 0;
         char[] s = new char[4];
         for (s[0] = 'a'; s[0] <= 'z'; s[0]++) {
