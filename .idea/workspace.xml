@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2c69fb2-d0be-48e5-b5ca-43335579505c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/sort/InsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/vbutkov/sort/InsertSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/array/arraylist/Workshop1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/recurse/Enumeration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/vbutkov/sort/CountingSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/vbutkov/sort/CountingSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,13 +48,13 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/melchior/IdeaProjects/euler-tasks&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/melchior/IdeaProjects/product-star-hw&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -67,19 +70,29 @@
       <recent name="ru.vbutkov.array.arraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InsertSortTest.sort">
-    <configuration name="ArrayTest.decomposeToPrimeFactors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Enumeration">
+    <configuration name="Enumeration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.recurse.Enumeration" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.vbutkov.array.*" />
+          <option name="PATTERN" value="ru.vbutkov.recurse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.vbutkov.array" />
-      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.array.ArrayTest" />
-      <option name="METHOD_NAME" value="decomposeToPrimeFactors" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Workshop1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.array.arraylist.Workshop1" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.vbutkov.array.arraylist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChoiceSortTest.sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CountingSortTest.sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -109,24 +122,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.vbutkov.sort" />
-      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.sort.ChoiceSortTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.sort.CountingSortTest" />
       <option name="METHOD_NAME" value="sort" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DynamicStackTest.pushAndPop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.vbutkov.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.vbutkov.stack" />
-      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.stack.DynamicStackTest" />
-      <option name="METHOD_NAME" value="pushAndPop" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Enumeration" />
+        <item itemvalue="Application.Workshop1" />
+        <item itemvalue="JUnit.CountingSortTest.sort" />
         <item itemvalue="JUnit.InsertSortTest.sort" />
         <item itemvalue="JUnit.BubbleSortTest.sort" />
-        <item itemvalue="JUnit.ChoiceSortTest.sort" />
-        <item itemvalue="JUnit.ArrayTest.decomposeToPrimeFactors" />
-        <item itemvalue="JUnit.DynamicStackTest.pushAndPop" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +168,10 @@
       <workItem from="1690361819777" duration="2163000" />
       <workItem from="1690794972573" duration="5243000" />
       <workItem from="1690829588596" duration="2083000" />
+      <workItem from="1691057588550" duration="8765000" />
+      <workItem from="1691240830182" duration="11733000" />
+      <workItem from="1691482586307" duration="2624000" />
+      <workItem from="1691998368409" duration="14473000" />
     </task>
     <servers />
   </component>
