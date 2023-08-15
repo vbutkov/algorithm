@@ -1,2 +1,2 @@
 # algorithm
-this repository for education basic alrotithm, data structures and improve my skills
+this repository for education basic alrotithm, data structures and improve my skills 
