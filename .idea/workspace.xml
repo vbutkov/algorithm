@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2c69fb2-d0be-48e5-b5ca-43335579505c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/recurse/Hanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/vbutkov/sort/MergeSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -66,7 +67,7 @@
       <recent name="ru.vbutkov.array.arraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Hanoi">
+  <component name="RunManager" selected="JUnit.MergeSortTest.sortAndMerge">
     <configuration name="Hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.vbutkov.recurse.Hanoi" />
       <module name="algorithm" />
@@ -106,20 +107,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Workshop1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.array.arraylist.Workshop1" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.vbutkov.array.arraylist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountingSortTest.sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeSortTest.sortAndMerge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -128,8 +116,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.vbutkov.sort" />
-      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.sort.CountingSortTest" />
-      <option name="METHOD_NAME" value="sort" />
+      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.sort.MergeSortTest" />
+      <option name="METHOD_NAME" value="sortAndMerge" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSortTest.sortedMerge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.vbutkov.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.vbutkov.sort" />
+      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.sort.MergeSortTest" />
+      <option name="METHOD_NAME" value="sortedMerge" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MergeSortTest.sortAndMerge" />
+        <item itemvalue="JUnit.MergeSortTest.sortedMerge" />
         <item itemvalue="Application.Hanoi" />
         <item itemvalue="Application.RecursiveTask" />
         <item itemvalue="Application.PasswordGenerator" />
-        <item itemvalue="Application.Workshop1" />
-        <item itemvalue="JUnit.CountingSortTest.sort" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +167,8 @@
       <workItem from="1691482586307" duration="2624000" />
       <workItem from="1691998368409" duration="21016000" />
       <workItem from="1692601422118" duration="3252000" />
-      <workItem from="1692605762368" duration="10732000" />
+      <workItem from="1692605762368" duration="14092000" />
+      <workItem from="1692808270700" duration="11643000" />
     </task>
     <servers />
   </component>
@@ -172,16 +177,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/vbutkov/recurse/Hanoi.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
