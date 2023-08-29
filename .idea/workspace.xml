@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2c69fb2-d0be-48e5-b5ca-43335579505c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/sort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/vbutkov/sort/QuickSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/greedy/stripes/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/greedy/stripes/Stripes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/greedy/stripes/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -67,13 +68,13 @@
       <recent name="ru.vbutkov.array.arraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.QuickSortTest.sort">
-    <configuration name="Hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.recurse.Hanoi" />
+  <component name="RunManager" selected="Application.ru.vbutkov.greedy.stripes.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.greedy.algorithms.stripes.Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.vbutkov.recurse.*" />
+          <option name="PATTERN" value="ru.vbutkov.greedy.algorithms.stripes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,6 +88,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.vbutkov.recurse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.vbutkov.greedy.stripes.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.greedy.stripes.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.vbutkov.greedy.stripes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,22 +124,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortTest.sortedMerge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.vbutkov.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.vbutkov.sort" />
-      <option name="MAIN_CLASS_NAME" value="ru.vbutkov.sort.MergeSortTest" />
-      <option name="METHOD_NAME" value="sortedMerge" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="QuickSortTest.sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <extension name="coverage">
@@ -144,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ru.vbutkov.greedy.stripes.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.QuickSortTest.sort" />
         <item itemvalue="Application.RecursiveTask" />
         <item itemvalue="JUnit.MergeSortTest.sortAndMerge" />
-        <item itemvalue="JUnit.MergeSortTest.sortedMerge" />
-        <item itemvalue="Application.Hanoi" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +170,7 @@
       <workItem from="1692601422118" duration="3252000" />
       <workItem from="1692605762368" duration="14092000" />
       <workItem from="1692808270700" duration="13651000" />
-      <workItem from="1693234380035" duration="4363000" />
+      <workItem from="1693234380035" duration="14779000" />
     </task>
     <servers />
   </component>
