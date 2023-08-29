@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2c69fb2-d0be-48e5-b5ca-43335579505c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/greedy/stripes/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/greedy/stripes/Stripes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/greedy/stripes/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vbutkov/greedy/stripes/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vbutkov/greedy/stripes/readme.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +167,7 @@
       <workItem from="1692601422118" duration="3252000" />
       <workItem from="1692605762368" duration="14092000" />
       <workItem from="1692808270700" duration="13651000" />
-      <workItem from="1693234380035" duration="14779000" />
+      <workItem from="1693234380035" duration="14891000" />
     </task>
     <servers />
   </component>
